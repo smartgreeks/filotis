@@ -13,36 +13,39 @@ export function Footer() {
             <p className="text-slate-300 leading-relaxed">
               Ολιστική υγεία και ευεξία με εξατομικευμένες θεραπείες για το σώμα και το πνεύμα.
             </p>
-            <div className="flex gap-4">
+                        <div className="flex gap-4">
               {business.social?.instagram && (
-                <Link
+                <a
                   href={business.social.instagram}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-slate-400 hover:text-sky-400 transition-colors"
                   aria-label="Instagram"
                 >
                   <Instagram className="h-6 w-6" />
-                </Link>
+                </a>
               )}
               {business.social?.facebook && (
-                <Link
+                <a
                   href={business.social.facebook}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-slate-400 hover:text-sky-400 transition-colors"
                   aria-label="Facebook"
                 >
                   <Facebook className="h-6 w-6" />
-                </Link>
+                </a>
               )}
               {business.social?.googleBusinessUrl && (
-                <Link
+                <a
                   href={business.social.googleBusinessUrl}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-slate-400 hover:text-sky-400 transition-colors"
                   aria-label="Google Business"
                 >
                   <ExternalLink className="h-6 w-6" />
-                </Link>
+                </a>
               )}
             </div>
           </div>

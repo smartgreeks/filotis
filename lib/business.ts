@@ -3,7 +3,8 @@ import type { BusinessConfig } from "@/lib/types";
 
 export const business = raw as BusinessConfig;
 
-export function t(bilingualValue: string | { el: string; en: string }, locale: "el" | "en" = "el"): string {
+export function t(bilingualValue: string | { el: string; en: string } | undefined, locale: "el" | "en" = "el"): string {
+  if (!bilingualValue) return "";
   if (typeof bilingualValue === "string") return bilingualValue;
   return bilingualValue[locale] || bilingualValue.el || bilingualValue.en;
 }
