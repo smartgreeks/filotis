@@ -1,0 +1,76 @@
+{
+  "brandName": "Filotis Health Center",
+  "tagline": {
+    "el": "Ολιστικό κέντρο υγείας και ευεξίας",
+    "en": "Holistic health and wellness center"
+  },
+  "sectors": ["Ευεξία", "Αντιγήρανση", "Θεραπευτικό μασάζ", "Προσωποποιημένες θεραπείες"],
+  "primaryLocation": {
+    "city": "Αθήνα",
+    "areas": ["Αμπελόκηποι", "Πλατεία Μαβίλη"],
+    "address": "Σαρανταπόρου 3, Αμπελόκηποι, Αθήνα 115 23",
+    "geo": { "lat": 37.9849, "lng": 23.7507 }
+  },
+  "contact": {
+    "phone": "+30 694 439 9991",
+    "email": "filotis.health.center@gmail.com",
+    "hours": {
+      "mon_fri": "10:00–20:00",
+      "sat": "10:00–16:00",
+      "sun": "Κλειστά"
+    }
+  },
+  "services": [
+    {
+      "name": {"el": "Θεραπευτικό μασάζ", "en": "Therapeutic Massage"},
+      "desc": {"el": "Εξατομικευμένες τεχνικές για αποσυμφόρηση και χαλάρωση.", "en": "Personalized techniques for relief and relaxation."},
+      "priceFrom": "€40"
+    },
+    {
+      "name": {"el": "Αντιγήρανση προσώπου", "en": "Anti-aging Facial"},
+      "desc": {"el": "Συνδυαστικές θεραπείες για λάμψη και σύσφιξη.", "en": "Combined treatments for glow and firmness."},
+      "priceFrom": "€50"
+    },
+    {
+      "name": {"el": "Λεμφική αποσυμφόρηση", "en": "Lymphatic Drainage"},
+      "desc": {"el": "Ενίσχυση κυκλοφορίας και μείωση κατακρατήσεως.", "en": "Boost circulation and reduce retention."},
+      "priceFrom": "€45"
+    }
+  ],
+  "social": {
+    "googleBusinessUrl": "https://maps.app.goo.gl/tFfP7nmG9PXcytCM7",
+    "facebook": "https://www.facebook.com/p/%CE%A6%CE%B9%CE%BB%CF%8C%CF%84%CE%B7%CF%82-Health-Center-61558494873963/",
+    "instagram": "https://www.instagram.com/filotis_health_center/"
+  },
+  "seo": {
+    "targetKeywordsEL": [
+      "Filotis Health Center",
+      "ολιστικό κέντρο υγείας Αθήνα",
+      "αντιγήρανση θεραπείες",
+      "προσωποποιημένες θεραπείες Αθήνα",
+      "φυσικές θεραπείες Μαβίλη",
+      "θεραπευτικό μασάζ Αμπελόκηποι"
+    ],
+    "targetKeywordsEN": [
+      "Philotes Health Center Athens",
+      "holistic health center Athens",
+      "alternative anti-aging treatments",
+      "personalized therapies Athens",
+      "natural therapies near Mavili Square",
+      "therapeutic massage Ampelokipoi"
+    ]
+  },
+  "brand": {
+    "primary": "#0EA5E9",
+    "secondary": "#10B981",
+    "accent": "#F59E0B",
+    "dark": "#0F172A",
+    "light": "#F8FAFC",
+    "fontHeadings": "Inter",
+    "fontBody": "Inter"
+  },
+  "bilingual": true,
+  "imagesPolicy": "auto-or-placeholder",
+  "notes": "Optional booking via Treatwell: https://www.treatwell.gr/katasthma/philotes-health-center/"
+}
+

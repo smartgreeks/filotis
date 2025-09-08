@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS variables for easy theming */
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #0f172a;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-brand-light text-slate-900 antialiased;
+}
+
+.container-prose p { @apply text-slate-700 leading-relaxed; }
+.container-prose h2 { @apply text-2xl font-semibold text-slate-900; }
+
